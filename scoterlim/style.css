@@ -1,0 +1,126 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    padding: 16px;
+    font-family: "Inter", sans-serif;
+    background-image: url(background.jpg);
+    color: white;
+    background-size:cover;    
+  }
+
+  h1 {
+    font-size: 24px;
+    color: rgb(0, 221, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    
+  }
+
+  
+  .panel {
+    background-color: rgb(0, 221, 0);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 36px;
+  }
+
+  button {
+    padding: 4px 6px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  input {
+    margin-right: 8px;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+  }
+
+  .ride {
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 36px;
+  }
+
+  
+.blackBox {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    margin: 25px 250px 75px;
+    padding: 30px 60px 60px;    
+}
+
+.charge1 {
+    background-color: rgb(245, 180, 83);
+    border-radius: 4px;
+    width: 330px;
+    height: 24px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.charge2 {
+    background-color: rgb(30,195,30);
+    border-radius: 4px;
+    width: 550px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.charge3 {
+    background-color: rgb(190,65,65);
+    border-radius: 4px;
+    width: 150px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status {
+    margin: 4px 0px 4px;
+}
+
+.status:before {
+    content: "Stato carica:";
+}
+
+.street:before {
+    content: "↦";
+}
+
+div .ride:hover {
+    text-decoration: underline;
+    color: gold;
+}
+
+button:hover {
+    text-decoration: underline;
+}
